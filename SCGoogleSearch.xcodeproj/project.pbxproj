@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932D792F869B89B874581315 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B5DEA8EFEEC9EE47B9CEA /* libPods.a */; };
 		947976151C229FC9006F7BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947976141C229FC9006F7BB5 /* main.m */; };
 		947976181C229FC9006F7BB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947976171C229FC9006F7BB5 /* AppDelegate.m */; };
-		9479761B1C229FC9006F7BB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479761A1C229FC9006F7BB5 /* ViewController.m */; };
 		9479761E1C229FC9006F7BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9479761C1C229FC9006F7BB5 /* Main.storyboard */; };
 		947976201C229FC9006F7BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9479761F1C229FC9006F7BB5 /* Assets.xcassets */; };
 		947976231C229FC9006F7BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947976211C229FC9006F7BB5 /* LaunchScreen.storyboard */; };
+		947976341C229FF0006F7BB5 /* SCGoogleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479762B1C229FF0006F7BB5 /* SCGoogleImage.m */; };
+		947976351C229FF0006F7BB5 /* SCGooglePagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479762D1C229FF0006F7BB5 /* SCGooglePagination.m */; };
+		947976361C229FF0006F7BB5 /* SCGoogleSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479762F1C229FF0006F7BB5 /* SCGoogleSearch.m */; };
+		947976371C229FF0006F7BB5 /* DEMOImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 947976311C229FF0006F7BB5 /* DEMOImageCollectionViewCell.m */; };
+		947976381C229FF0006F7BB5 /* DEMOPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947976331C229FF0006F7BB5 /* DEMOPhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08980EE82C364569E7D50AEC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		593B5DEA8EFEEC9EE47B9CEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		671D9750A4F470F64C7DBEDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		947976101C229FC9006F7BB5 /* SCGoogleSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGoogleSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947976141C229FC9006F7BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		947976161C229FC9006F7BB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		947976171C229FC9006F7BB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		947976191C229FC9006F7BB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9479761A1C229FC9006F7BB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9479761D1C229FC9006F7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9479761F1C229FC9006F7BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947976221C229FC9006F7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947976241C229FC9006F7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9479762A1C229FF0006F7BB5 /* SCGoogleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoogleImage.h; sourceTree = "<group>"; };
+		9479762B1C229FF0006F7BB5 /* SCGoogleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoogleImage.m; sourceTree = "<group>"; };
+		9479762C1C229FF0006F7BB5 /* SCGooglePagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGooglePagination.h; sourceTree = "<group>"; };
+		9479762D1C229FF0006F7BB5 /* SCGooglePagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGooglePagination.m; sourceTree = "<group>"; };
+		9479762E1C229FF0006F7BB5 /* SCGoogleSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoogleSearch.h; sourceTree = "<group>"; };
+		9479762F1C229FF0006F7BB5 /* SCGoogleSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoogleSearch.m; sourceTree = "<group>"; };
+		947976301C229FF0006F7BB5 /* DEMOImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOImageCollectionViewCell.h; sourceTree = "<group>"; };
+		947976311C229FF0006F7BB5 /* DEMOImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOImageCollectionViewCell.m; sourceTree = "<group>"; };
+		947976321C229FF0006F7BB5 /* DEMOPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOPhotosViewController.h; sourceTree = "<group>"; };
+		947976331C229FF0006F7BB5 /* DEMOPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOPhotosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932D792F869B89B874581315 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				947976121C229FC9006F7BB5 /* SCGoogleSearch */,
 				947976111C229FC9006F7BB5 /* Products */,
+				A9CF1E2617566196F0EB18A2 /* Pods */,
+				EDD4F058E3D7ED4C11A68D54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +77,11 @@
 		947976121C229FC9006F7BB5 /* SCGoogleSearch */ = {
 			isa = PBXGroup;
 			children = (
+				947976391C229FFB006F7BB5 /* Models */,
+				9479763C1C22A015006F7BB5 /* GoogleSearch */,
+				9479763D1C22A02A006F7BB5 /* DemoCollectionView */,
 				947976161C229FC9006F7BB5 /* AppDelegate.h */,
 				947976171C229FC9006F7BB5 /* AppDelegate.m */,
-				947976191C229FC9006F7BB5 /* ViewController.h */,
-				9479761A1C229FC9006F7BB5 /* ViewController.m */,
-				9479761C1C229FC9006F7BB5 /* Main.storyboard */,
 				9479761F1C229FC9006F7BB5 /* Assets.xcassets */,
 				947976211C229FC9006F7BB5 /* LaunchScreen.storyboard */,
 				947976241C229FC9006F7BB5 /* Info.plist */,
@@ -79,6 +98,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		947976391C229FFB006F7BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9479763A1C22A002006F7BB5 /* Image */,
+				9479763B1C22A00A006F7BB5 /* Pagination */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9479763A1C22A002006F7BB5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9479762A1C229FF0006F7BB5 /* SCGoogleImage.h */,
+				9479762B1C229FF0006F7BB5 /* SCGoogleImage.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		9479763B1C22A00A006F7BB5 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				9479762C1C229FF0006F7BB5 /* SCGooglePagination.h */,
+				9479762D1C229FF0006F7BB5 /* SCGooglePagination.m */,
+			);
+			name = Pagination;
+			sourceTree = "<group>";
+		};
+		9479763C1C22A015006F7BB5 /* GoogleSearch */ = {
+			isa = PBXGroup;
+			children = (
+				9479762E1C229FF0006F7BB5 /* SCGoogleSearch.h */,
+				9479762F1C229FF0006F7BB5 /* SCGoogleSearch.m */,
+			);
+			name = GoogleSearch;
+			sourceTree = "<group>";
+		};
+		9479763D1C22A02A006F7BB5 /* DemoCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9479763E1C22A047006F7BB5 /* ViewController */,
+				9479761C1C229FC9006F7BB5 /* Main.storyboard */,
+			);
+			name = DemoCollectionView;
+			sourceTree = "<group>";
+		};
+		9479763E1C22A047006F7BB5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9479763F1C22A055006F7BB5 /* Cell */,
+				947976321C229FF0006F7BB5 /* DEMOPhotosViewController.h */,
+				947976331C229FF0006F7BB5 /* DEMOPhotosViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9479763F1C22A055006F7BB5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				947976301C229FF0006F7BB5 /* DEMOImageCollectionViewCell.h */,
+				947976311C229FF0006F7BB5 /* DEMOImageCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		A9CF1E2617566196F0EB18A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671D9750A4F470F64C7DBEDC /* Pods.debug.xcconfig */,
+				08980EE82C364569E7D50AEC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDD4F058E3D7ED4C11A68D54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593B5DEA8EFEEC9EE47B9CEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 947976271C229FC9006F7BB5 /* Build configuration list for PBXNativeTarget "SCGoogleSearch" */;
 			buildPhases = (
+				2FF996ED6DCA654D9A135EB9 /* Check Pods Manifest.lock */,
 				9479760C1C229FC9006F7BB5 /* Sources */,
 				9479760D1C229FC9006F7BB5 /* Frameworks */,
 				9479760E1C229FC9006F7BB5 /* Resources */,
+				8277D53F770FF8B2E6503A96 /* Embed Pods Frameworks */,
+				C74BFEC3F49C0D0C203D5BE0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +247,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FF996ED6DCA654D9A135EB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8277D53F770FF8B2E6503A96 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74BFEC3F49C0D0C203D5BE0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9479760C1C229FC9006F7BB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9479761B1C229FC9006F7BB5 /* ViewController.m in Sources */,
+				947976361C229FF0006F7BB5 /* SCGoogleSearch.m in Sources */,
+				947976381C229FF0006F7BB5 /* DEMOPhotosViewController.m in Sources */,
+				947976351C229FF0006F7BB5 /* SCGooglePagination.m in Sources */,
 				947976181C229FC9006F7BB5 /* AppDelegate.m in Sources */,
 				947976151C229FC9006F7BB5 /* main.m in Sources */,
+				947976371C229FF0006F7BB5 /* DEMOImageCollectionViewCell.m in Sources */,
+				947976341C229FF0006F7BB5 /* SCGoogleImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +416,7 @@
 		};
 		947976281C229FC9006F7BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671D9750A4F470F64C7DBEDC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SCGoogleSearch/Info.plist;
@@ -272,6 +428,7 @@
 		};
 		947976291C229FC9006F7BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08980EE82C364569E7D50AEC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SCGoogleSearch/Info.plist;
@@ -300,6 +457,7 @@
 				947976291C229FC9006F7BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
