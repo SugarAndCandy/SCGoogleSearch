@@ -25,7 +25,7 @@
 
 @end
 
-@implementation SCPhotosViewController
+@implementation DEMOPhotosViewController
 
 -(void)viewDidLoad {
     [super viewDidLoad];

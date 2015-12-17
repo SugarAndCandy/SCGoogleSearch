@@ -8,6 +8,6 @@
 
 #import "DEMOImageCollectionViewCell.h"
 
-@implementation SCImageCollectionViewCell
+@implementation DEMOImageCollectionViewCell
 
 @end
